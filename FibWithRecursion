@@ -1,0 +1,9 @@
+# Returning nth number
+def FibWithRec(n):
+    if (n < 1):
+        return 0
+
+    if(n == 1):
+        return 1
+
+    return FibWithRec(n-1) + FibWithRec(n-2)
